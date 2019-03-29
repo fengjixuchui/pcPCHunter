@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{19074092-5b64-4314-b7cf-a70a007c2b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppDlg">
+      <UniqueIdentifier>{ec424565-5ccc-42f5-b269-c1ce712fcb11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessCore">
+      <UniqueIdentifier>{120e714b-fe35-487b-8911-004456e4fb18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessCore\ProcessInfo">
+      <UniqueIdentifier>{cf7f3f20-e5de-4b6e-b18e-01b66ba474bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessCore\ProcessInfo\ProcessModule">
+      <UniqueIdentifier>{ceff7293-d8d9-40b1-b9d3-c5ea86f1e0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessCore\ProcessInfo\ProcessThread">
+      <UniqueIdentifier>{135fba0c-def9-4a60-9676-0e3d7fe7a6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessCore\ProcessInfo\ProcessHandle">
+      <UniqueIdentifier>{4230a277-c14a-45f9-a04a-3d3b6ad40dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessCore\ProcessInfo\ProcessWindow">
+      <UniqueIdentifier>{9d8c098b-6d0c-43da-9981-148b8ed742cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProcessCore\ProcessInfo\ProcessMemory">
+      <UniqueIdentifier>{8d947431-0665-4ee3-9dcd-403a5fcb9988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DriverCore">
+      <UniqueIdentifier>{cd71f84b-9b87-415e-bcf5-07f4a09713e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RegistryCore">
+      <UniqueIdentifier>{cc66328b-100e-4029-a701-aec1466f4141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelCore">
+      <UniqueIdentifier>{41c8d97a-52dd-48d6-a68a-19f7900a06e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelCore\Callback">
+      <UniqueIdentifier>{24adf36e-f151-45a2-9b0b-41fe160797ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelCore\FilterDriver">
+      <UniqueIdentifier>{7c2a2a2a-c97f-439c-9dc2-0da29854e01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelCore\IoTimer">
+      <UniqueIdentifier>{d1f0eaef-4375-479d-8a26-37680252e8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelCore\DpcTimer">
+      <UniqueIdentifier>{74d4ce30-e6cf-42b1-9038-d1c33cc86b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelCore\SystemThread">
+      <UniqueIdentifier>{544950f4-4da1-43e4-90e6-6983156ddd2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelHook">
+      <UniqueIdentifier>{a63808b7-b3b3-460c-804a-21f92ae1a205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelHook\SsdtHook">
+      <UniqueIdentifier>{900ba43b-bbc7-4d54-8119-bb82739276c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelHook\SssdtHook">
+      <UniqueIdentifier>{fc42dc4b-f5b0-4ec3-a0da-f65dc2c3da9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileCore">
+      <UniqueIdentifier>{f01e70c6-c338-4fa0-bbff-d1e4e355695d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProcessCore.h">
+      <Filter>ProcessCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkProtectAppDlg.h">
+      <Filter>AppDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkProtectApp.h">
+      <Filter>AppDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessDlg.h">
+      <Filter>ProcessCore</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessInfoDlg.h">
+      <Filter>ProcessCore\ProcessInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessModule.h">
+      <Filter>ProcessCore\ProcessInfo\ProcessModule</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessThread.h">
+      <Filter>ProcessCore\ProcessInfo\ProcessThread</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHandle.h">
+      <Filter>ProcessCore\ProcessInfo\ProcessHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessWindow.h">
+      <Filter>ProcessCore\ProcessInfo\ProcessWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMemory.h">
+      <Filter>ProcessCore\ProcessInfo\ProcessMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverDlg.h">
+      <Filter>DriverCore</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverCore.h">
+      <Filter>DriverCore</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryDlg.h">
+      <Filter>RegistryCore</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelDlg.h">
+      <Filter>KernelCore</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryCore.h">
+      <Filter>RegistryCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemCallback.h">
+      <Filter>KernelCore\Callback</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterDriver.h">
+      <Filter>KernelCore\FilterDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="IoTimer.h">
+      <Filter>KernelCore\IoTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="DpcTimer.h">
+      <Filter>KernelCore\DpcTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemThread.h">
+      <Filter>KernelCore\SystemThread</Filter>
+    </ClInclude>
+    <ClInclude Include="HookDlg.h">
+      <Filter>KernelHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SsdtHook.h">
+      <Filter>KernelHook\SsdtHook</Filter>
+    </ClInclude>
+    <ClInclude Include="SssdtHook.h">
+      <Filter>KernelHook\SssdtHook</Filter>
+    </ClInclude>
+    <ClInclude Include="NtStructs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCore.h">
+      <Filter>FileCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProcessCore.cpp">
+      <Filter>ProcessCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkProtectApp.cpp">
+      <Filter>AppDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkProtectAppDlg.cpp">
+      <Filter>AppDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessDlg.cpp">
+      <Filter>ProcessCore</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessInfoDlg.cpp">
+      <Filter>ProcessCore\ProcessInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessModule.cpp">
+      <Filter>ProcessCore\ProcessInfo\ProcessModule</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessThread.cpp">
+      <Filter>ProcessCore\ProcessInfo\ProcessThread</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHandle.cpp">
+      <Filter>ProcessCore\ProcessInfo\ProcessHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessWindow.cpp">
+      <Filter>ProcessCore\ProcessInfo\ProcessWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMemory.cpp">
+      <Filter>ProcessCore\ProcessInfo\ProcessMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverDlg.cpp">
+      <Filter>DriverCore</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverCore.cpp">
+      <Filter>DriverCore</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryDlg.cpp">
+      <Filter>RegistryCore</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelDlg.cpp">
+      <Filter>KernelCore</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryCore.cpp">
+      <Filter>RegistryCore</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemCallback.cpp">
+      <Filter>KernelCore\Callback</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterDriver.cpp">
+      <Filter>KernelCore\FilterDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="IoTimer.cpp">
+      <Filter>KernelCore\IoTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="DpcTimer.cpp">
+      <Filter>KernelCore\DpcTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemThread.cpp">
+      <Filter>KernelCore\SystemThread</Filter>
+    </ClCompile>
+    <ClCompile Include="HookDlg.cpp">
+      <Filter>KernelHook</Filter>
+    </ClCompile>
+    <ClCompile Include="SsdtHook.cpp">
+      <Filter>KernelHook\SsdtHook</Filter>
+    </ClCompile>
+    <ClCompile Include="SssdtHook.cpp">
+      <Filter>KernelHook\SssdtHook</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCore.cpp">
+      <Filter>FileCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ArkProtectApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ArkProtectApp.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ArkProtectApp.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\about.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\driver.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\hook.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kernel.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\process.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\registry.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Registry\Icon\CloseDir.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Registry\Icon\Computer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Registry\Icon\OpenDir.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Registry\Icon\REG_DWORD.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Registry\Icon\REG_SZ.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\registry\icon\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\app.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
