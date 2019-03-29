@@ -1,0 +1,38 @@
+
+
+AMD64_OBJECTS=\
+ $(OBJ_PATH)\$O\systemcallback.obj \
+ $(OBJ_PATH)\$O\sssdtfuncname.obj \
+ $(OBJ_PATH)\$O\sssdt.obj \
+ $(OBJ_PATH)\$O\ssdt.obj \
+ $(OBJ_PATH)\$O\pspcidtable.obj \
+ $(OBJ_PATH)\$O\processwindow.obj \
+ $(OBJ_PATH)\$O\processthread.obj \
+ $(OBJ_PATH)\$O\processmodule.obj \
+ $(OBJ_PATH)\$O\processmemory.obj \
+ $(OBJ_PATH)\$O\processhandle.obj \
+ $(OBJ_PATH)\$O\processcore.obj \
+ $(OBJ_PATH)\$O\private.obj \
+ $(OBJ_PATH)\$O\peloader.obj \
+ $(OBJ_PATH)\$O\main.obj \
+ $(OBJ_PATH)\$O\iotimer.obj \
+ $(OBJ_PATH)\$O\filterdriver.obj \
+ $(OBJ_PATH)\$O\filecore.obj \
+ $(OBJ_PATH)\$O\drivercore.obj \
+ $(OBJ_PATH)\$O\dpctimer.obj \
+ $(OBJ_PATH)\$O\dispatch.obj \
+ $(OBJ_PATH)\$O\common.obj \
+ $(OBJ_PATH)\$O\getssdtfuncaddress.obj \
+ $(OBJ_PATH)\$O\zwqueryvirtualmemory.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=f:\winddk\7600.16385.1
+OBJECT_ROOT=f:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=e:\code\arkprotect-master\arkprotect-master\arkprotectdrv
+OBJ_PATH=e:\code\arkprotect-master\arkprotect-master\arkprotectdrv
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

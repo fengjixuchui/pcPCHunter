@@ -1,0 +1,30 @@
+TARGETNAME=ArkProtectDrv
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+INCLUDES=.\
+
+SOURCES= \
+SystemCallback.c \
+SssdtFuncName.c \
+Sssdt.c \
+Ssdt.c \
+PspCidTable.c\
+ProcessWindow.c\
+ProcessThread.c\
+ProcessModule.c\
+ProcessMemory.c\
+ProcessHandle.c\
+ProcessCore.c\
+Private.c\
+PeLoader.c\
+main.c\
+IoTimer.c\
+FilterDriver.c\
+FileCore.c\
+DriverCore.c\
+DpcTimer.c\
+Dispatch.c\
+Common.c\
+GetSSDTFuncAddress.c\
+ZwQueryVirtualMemory.c

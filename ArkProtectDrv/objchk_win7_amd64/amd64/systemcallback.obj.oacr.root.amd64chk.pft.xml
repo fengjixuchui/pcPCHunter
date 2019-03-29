@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>1</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>934</LINE><COLUMN>46</COLUMN><FILENAME>systemcallback.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28175</DEFECTCODE><DESCRIPTION>The 'MajorFunction' member of _DRIVER_OBJECT should not be accessed by a driver:  Access to this member may be permitted for certain classes of drivers. See the documentation for this warning for more information.</DESCRIPTION><FUNCTION>APGetShutdownDispatch</FUNCTION><FUNCLINE>924</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

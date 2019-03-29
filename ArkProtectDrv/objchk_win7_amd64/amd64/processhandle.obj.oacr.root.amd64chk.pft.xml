@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>4</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>19</LINE><COLUMN>24</COLUMN><FILENAME>processhandle.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>APGetHandleType</FUNCTION><FUNCLINE>15</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="2"><SFA><LINE>78</LINE><COLUMN>24</COLUMN><FILENAME>processhandle.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>APGetHandleName</FUNCTION><FUNCLINE>74</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="3"><SFA><LINE>187</LINE><COLUMN>31</COLUMN><FILENAME>processhandle.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>APEnumProcessHandleByZwQuerySystemInformation</FUNCTION><FUNCLINE>176</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="4"><SFA><LINE>257</LINE><COLUMN>79</COLUMN><FILENAME>processhandle.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>APEnumProcessHandle</FUNCTION><FUNCLINE>238</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

@@ -1,0 +1,19 @@
+ERROR - "e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\_objects.mac" file time is slightly in the future (0x1d4e61b36e3ef00 (3/29/2019 10:36:06) vs. 0x1d4e61b36d3ff37 (3/29/2019 10:36:05)).
+
+1>warnings in directory e:\code\arkprotect-master\arkprotect-master\arkprotectdrv
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\sssdt.c(248) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\sssdt.c(404) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\ssdt.c(367) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processwindow.c(36) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processthread.c(127) : warning C4550: expression evaluates to a function which is missing an argument list
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processthread.c(143) : warning C4550: expression evaluates to a function which is missing an argument list
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\getssdtfuncaddress.h(6) : warning C4005: 'SEC_IMAGE' : macro redefinition
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processmodule.c(370) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\getssdtfuncaddress.h(6) : warning C4005: 'SEC_IMAGE' : macro redefinition
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(19) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(78) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(187) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(257) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\peloader.c(127) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\filecore.c(122) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\drivercore.c(650) : warning C4996: 'ExAllocatePool': was declared deprecated

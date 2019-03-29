@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>1</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>127</LINE><COLUMN>30</COLUMN><FILENAME>peloader.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>APGetFileBuffer</FUNCTION><FUNCLINE>92</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

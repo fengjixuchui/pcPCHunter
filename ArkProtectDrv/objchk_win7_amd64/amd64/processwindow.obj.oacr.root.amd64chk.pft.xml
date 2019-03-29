@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>1</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>36</LINE><COLUMN>37</COLUMN><FILENAME>processwindow.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging..</DESCRIPTION><FUNCTION>APEnumProcessWindowByNtUserBuildHwndList</FUNCTION><FUNCLINE>23</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

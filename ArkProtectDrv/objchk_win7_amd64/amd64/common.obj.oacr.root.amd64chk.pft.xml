@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>3</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>34</LINE><COLUMN>20</COLUMN><FILENAME>common.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28159</DEFECTCODE><DESCRIPTION>Consider using 'RtlGetVersion' instead of 'PsGetVersion'. Reason: Obsolete.</DESCRIPTION><FUNCTION>GetWindowsVersion</FUNCTION><FUNCLINE>19</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="2"><SFA><LINE>276</LINE><COLUMN>26</COLUMN><FILENAME>common.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28719</DEFECTCODE><DESCRIPTION>Banned API Usage:  wcscpy is a Banned API as listed in dontuse.h for security purposes.</DESCRIPTION><FUNCTION>NtPathToDosPathW</FUNCTION><FUNCLINE>254</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="3"><SFA><LINE>277</LINE><COLUMN>26</COLUMN><FILENAME>common.c</FILENAME><FILEPATH>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\</FILEPATH></SFA><DEFECTCODE>28719</DEFECTCODE><DESCRIPTION>Banned API Usage:  wcscat is a Banned API as listed in dontuse.h for security purposes.</DESCRIPTION><FUNCTION>NtPathToDosPathW</FUNCTION><FUNCLINE>254</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>

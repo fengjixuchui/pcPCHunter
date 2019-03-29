@@ -1,0 +1,247 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining e:\code\arkprotect-master\arkprotect-master\arkprotectdrv directory for files to compile.
+oacr invalidate root:amd64chk /autocleanqueue
+ERROR - "e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\_objects.mac" file time is slightly in the future (0x1d4e61b36e3ef00 (3/29/2019 10:36:06) vs. 0x1d4e61b36d3ff37 (3/29/2019 10:36:05)).
+
+1>Compiling and Linking e:\code\arkprotect-master\arkprotect-master\arkprotectdrv *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv: TARGETPATH is obj
+1> F:\WinDDK\7600.16385.1\Bin\amd64\oacr\oacrcl @e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\cl.rsp
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.207 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64/"
+1> /FC
+1> /Iamd64\
+1> /I.
+1> /I.
+1> /Ie:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64
+1> /IF:\WinDDK\7600.16385.1\inc\api
+1> /IF:\WinDDK\7600.16385.1\inc\api
+1> /IF:\WinDDK\7600.16385.1\inc\ddk
+1> /IF:\WinDDK\7600.16385.1\inc\ddk
+1> /IF:\WinDDK\7600.16385.1\inc\crt
+1> /D_WIN64
+1> /D_AMD64_
+1> /DAMD64
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0601
+1> /DWINVER=0x0601
+1> /D_WIN32_IE=0x0800
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /DDBG=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /D_DLL=1
+1> /DNDEBUG
+1> /DDEPRECATE_DDK_FUNCTIONS=1
+1> /DMSC_NOOPT
+1> /DNTDDI_VERSION=0x06010000
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> -cbstring
+1> /W3
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Zi
+1> /Od
+1> /Oi
+1> /GL
+1> /Zi
+1> /Fde:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /typedil-
+1> /wd4603
+1> /wd4627
+1> /homeparams
+1> /FIF:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\systemcallback.c .\sssdtfuncname.c .\sssdt.c .\ssdt.c .\pspcidtable.c .\processwindow.c .\processthread.c .\processmodule.c .\processmemory.c .\processhandle.c .\processcore.c .\private.c .\peloader.c .\main.c .\iotimer.c .\filterdriver.c .\filecore.c .\drivercore.c .\dpctimer.c .\dispatch.c .\common.c .\getssdtfuncaddress.c .\zwqueryvirtualmemory.c 
+1>systemcallback.c
+1>sssdtfuncname.c
+1>sssdt.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\sssdt.c(248) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>warnings in directory e:\code\arkprotect-master\arkprotect-master\arkprotectdrv
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\sssdt.c(248) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\sssdt.c(404) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\sssdt.c(404) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>ssdt.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\ssdt.c(367) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\ssdt.c(367) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>pspcidtable.c
+1>processwindow.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processwindow.c(36) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processwindow.c(36) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>processthread.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processthread.c(127) : warning C4550: expression evaluates to a function which is missing an argument list
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processthread.c(127) : warning C4550: expression evaluates to a function which is missing an argument list
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processthread.c(143) : warning C4550: expression evaluates to a function which is missing an argument list
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processthread.c(143) : warning C4550: expression evaluates to a function which is missing an argument list
+1>processmodule.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\getssdtfuncaddress.h(6) : warning C4005: 'SEC_IMAGE' : macro redefinition
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\getssdtfuncaddress.h(6) : warning C4005: 'SEC_IMAGE' : macro redefinition
+1> e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\ntstructs.h(183) : see previous definition of 'SEC_IMAGE'
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processmodule.c(370) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processmodule.c(370) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>processmemory.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\getssdtfuncaddress.h(6) : warning C4005: 'SEC_IMAGE' : macro redefinition
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\getssdtfuncaddress.h(6) : warning C4005: 'SEC_IMAGE' : macro redefinition
+1> e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\ntstructs.h(183) : see previous definition of 'SEC_IMAGE'
+1>processhandle.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(19) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(19) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(78) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(78) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(187) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(187) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(257) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\processhandle.c(257) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>processcore.c
+1>private.c
+1>peloader.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\peloader.c(127) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\peloader.c(127) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>main.c
+1>iotimer.c
+1>filterdriver.c
+1>filecore.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\filecore.c(122) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\filecore.c(122) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>drivercore.c
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\drivercore.c(650) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\drivercore.c(650) : warning C4996: 'ExAllocatePool': was declared deprecated
+1> f:\winddk\7600.16385.1\inc\ddk\wdm.h(16147) : see declaration of 'ExAllocatePool'
+1>dpctimer.c
+1>dispatch.c
+1>Compiling...
+1>common.c
+1>getssdtfuncaddress.c
+1>zwqueryvirtualmemory.c
+1> F:\WinDDK\7600.16385.1\Bin\amd64\oacr\oacrlink /out:e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\ArkProtectDrv.sys /machine:amd64 @e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\hotpatch.obj 
+1>/functionpadmin:6 
+1>/pdbcompress 
+1>/STACK:0x40000,0x1000 
+1>/driver 
+1>/base:0x10000 
+1>/subsystem:native,6.01 
+1>/entry:GsDriverEntry 
+1>/out:e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\ArkProtectDrv.sys 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\systemcallback.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\sssdtfuncname.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\sssdt.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\ssdt.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\pspcidtable.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processwindow.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processthread.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processmodule.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processmemory.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processhandle.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processcore.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\private.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\peloader.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\main.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\iotimer.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\filterdriver.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\filecore.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\drivercore.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\dpctimer.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\dispatch.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\common.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\getssdtfuncaddress.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\zwqueryvirtualmemory.obj 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\BufferOverflowK.lib 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\ntoskrnl.lib 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\hal.lib 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\wmilib.lib 
+1>systemcallback.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\hotpatch.obj 
+1>/functionpadmin:6 
+1>/pdbcompress 
+1>/STACK:0x40000,0x1000 
+1>/driver 
+1>/base:0x10000 
+1>/subsystem:native,6.01 
+1>/entry:GsDriverEntry 
+1>/out:e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\ArkProtectDrv.sys 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\systemcallback.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\sssdtfuncname.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\sssdt.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\ssdt.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\pspcidtable.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processwindow.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processthread.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processmodule.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processmemory.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processhandle.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\processcore.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\private.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\peloader.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\main.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\iotimer.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\filterdriver.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\filecore.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\drivercore.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\dpctimer.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\dispatch.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\common.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\getssdtfuncaddress.obj 
+1>e:\code\arkprotect-master\arkprotect-master\arkprotectdrv\objchk_win7_amd64\amd64\zwqueryvirtualmemory.obj 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\BufferOverflowK.lib 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\ntoskrnl.lib 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\hal.lib 
+1>F:\WinDDK\7600.16385.1\lib\win7\amd64\wmilib.lib 
+1>Generating code
+1>Finished generating code
